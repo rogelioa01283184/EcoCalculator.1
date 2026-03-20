@@ -1,7 +1,9 @@
 
 EcoCalculator
+
 The main problem we are looking forward to addressing is that most people are not aware of how their daily consumption of resources like water, food, and energy impacts directly on our world and more specifically on climate change. Usually our activities lead to overconsumption, contributing to our planet’s degradation.
-How to Run
+
+How to Run<br>
 -Install Python
 -Install the required library: pandas
 -Run the program using the Python file
