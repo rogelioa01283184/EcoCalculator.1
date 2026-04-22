@@ -75,14 +75,18 @@ Design Choices
 
 -The GUI design prioritizes clarity 
 
-Error Handling: -The program validates all numeric inputs to make sure they aren't negativo.
+Error Handling: 
 
-                -If invalid data is entered, the program shows error messages instead of just crashing. 
+
+-The program validates all numeric inputs to make sure they aren't negative.
+
+-If invalid data is entered, the program shows error messages instead of just crashing. 
                 
-                
-                -File saving errors are handled with storing the data in the user’s home directory if it's needed.
+-File saving errors are handled with storing the data in the user’s home directory if it's needed.
+
                 
 Additional Considerations
+
 
 -Pandas must be installed BEFORE running the program.
 -The results.csv file is automatically created if it does not exist already.
