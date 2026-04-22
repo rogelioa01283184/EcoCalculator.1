@@ -76,9 +76,7 @@ Design Choices
 -The GUI design prioritizes clarity 
 
 Error Handling: -The program validates all numeric inputs to ensure they are non-negative integers.
-
                 -If invalid data is entered, the program displays error messages instead of crashing.
-                
                 -File-saving errors are handled with a mechanism that stores data in the user’s home directory if needed.
                 
 Additional Considerations
