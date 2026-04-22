@@ -2,8 +2,8 @@
  EcoCalculator
 
 General Description
-The main problem this project addresses is the lack of awareness about how daily consumption habits like  transportation, food, electricity, and waste impact the environment and contribute to climate change. Many people meake actions, without knowing, that cause  to overconsumption and environmental degradation.
-This project provides a solution through an ecological footprint calculator developed in Python. The program allows users to input their daily habits, and then calculates a footprint score based on these answers. After that it classifies the environmental impact level and provides personalized recommendations. Finally  it stores the user data on a .csv file to allow comparisons of the average with previous results.
+The main problem this project addresses is the lack of awareness about how daily consumption habits like transportation, food, electricity, and waste impact the environment and contribute to climate change. Many people act without realizing it, leading to overconsumption and environmental degradation.
+This project provides a solution through an ecological footprint calculator developed in Python. The program allows users to input their daily habits, and then calculates a footprint score based on these answers. After that it classifies the environmental impact level and provides personalized recommendations. Finally  it stores the user data in a .csv file to allow comparisons of the average with previous results.
 
 
 Setup and Execution Instructions
@@ -60,7 +60,7 @@ Technical Decisions and Design Choices
 Libraries Used
 
 
--Tkinter: Chosen to build an userfriendly graphical interface, making the program easy to understand to every users.
+-Tkinter: Chosen to build a user-friendly graphical interface, making the program easy to understand to all users.
 
 -Pandas: Used to store, manage, and analyze user data in CSV format, including calculating the average scores.
 
@@ -70,9 +70,9 @@ Design Choices
 
 -The program is structured using functions to separate responsibilities (one for inputs, calculations, data storage, and GUI interaction), making it clean and efficient.
 
--A scoring system is used to reflect the environmental impact of different activities (waste has a higher multiplier due to its long term effects).
+-A scoring system is used to reflect the environmental impact of different activities (waste has a higher multiplier due to its long-term effects).
 
--The GUI design prioritizes clarity 
+-The GUI design prioritizes clarity, and it's arranged so it's easy to manage.
 
 Error Handling: 
 
@@ -81,7 +81,7 @@ Error Handling:
 
 -If invalid data is entered, the program shows error messages instead of just crashing. 
                 
--File saving errors are handled with storing the data in the user’s home directory if it's needed.
+-File saving errors are handled by storing the data in the user’s home directory if it's needed.
 
                 
 Additional Considerations
@@ -92,7 +92,7 @@ Additional Considerations
 
 -If the program does not have permission to write in the current folder, it will save the file in the user’s home directory so no data is lost.
 
--The ecological footprint score is an estimation, not an exact scientific measurement, it's just for EDUCATIONAL PURPOSES.
+-The ecological footprint score is an estimation, not an exact scientific measurement and it's intended for educational purposes.
 
 
 Video:[https://drive.google.com/drive/folders/1es5bZUjs4tlkRC6One446-DaWBg0HBoH?usp=sharing](https://drive.google.com/file/d/1Pqqr7Gl-62MZispO7mwJSEJj0Fr-5Qf0/view?usp=share_link)
