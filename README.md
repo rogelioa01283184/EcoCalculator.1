@@ -55,10 +55,12 @@ Summary of Implemented Features
 -Error Handling: Validates user input and prevents crashes by showing helpful error messages.
 
 
+
 Technical Decisions and Design Choices
 
 
 Libraries Used
+
 
 -Tkinter: Chosen to build an userfriendly graphical interface, making the program easy to understand to every users.
 
