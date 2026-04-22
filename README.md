@@ -77,9 +77,8 @@ Design Choices
 
 Error Handling: -The program validates all numeric inputs to make sure they aren't negativo.
 
-                -If invalid data is entered, the program shows error messages instead of just crashing.
-                
-                -File-saving errors are handled with sotring the data in the user’s home directory if it's needed.
+                -If invalid data is entered, the program shows error messages instead of just crashing. 
+                -File saving errors are handled with storing the data in the user’s home directory if it's needed.
                 
 Additional Considerations
 
