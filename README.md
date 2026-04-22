@@ -75,16 +75,20 @@ Design Choices
 
 -The GUI design prioritizes clarity 
 
-Error Handling: -The program validates all numeric inputs to ensure they are non-negative integers.
-                -If invalid data is entered, the program displays error messages instead of crashing.
-                -File-saving errors are handled with a mechanism that stores data in the user’s home directory if needed.
+Error Handling: -The program validates all numeric inputs to make sure they aren't negativo.
+
+                -If invalid data is entered, the program shows error messages instead of just crashing.
+                
+                -File-saving errors are handled with sotring the data in the user’s home directory if it's needed.
                 
 Additional Considerations
 
--The pandas library must be installed before running the program.
--The results.csv file is automatically created if it does not exist.
--If the program does not have permission to write in the current folder, it will save the file in the user’s home directory to prevent data loss.
--The ecological footprint score is an estimation, not an exact scientific measurement, and is intended for educational purposes.
+-Pandas must be installed BEFORE running the program.
+-The results.csv file is automatically created if it does not exist already.
+
+-If the program does not have permission to write in the current folder, it will save the file in the user’s home directory so no data is lost.
+
+-The ecological footprint score is an estimation, not an exact scientific measurement, it's just for EDUCATIONAL PURPOSES.
 
 
 Video:[https://drive.google.com/drive/folders/1es5bZUjs4tlkRC6One446-DaWBg0HBoH?usp=sharing](https://drive.google.com/file/d/1Pqqr7Gl-62MZispO7mwJSEJj0Fr-5Qf0/view?usp=share_link)
