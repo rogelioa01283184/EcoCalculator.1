@@ -33,12 +33,19 @@ Usage
 
 
 Summary of Implemented Features
+
 -GUI: Collects data on transportation, meat consumption, electricity usage, and waste production.
+
 -Score Calculation: Uses a  formula to estimate ecological impact.
+
 -Impact Classification: Categorizes results into Low, Medium, or High impact levels.
+
 -Personalized Recommendations: Provides feedback based on your score.
+
 -Data Storage: Saves results in a CSV file using pandas.
+
 -Data Comparison: Compares the user’s score with the average of previous users.
+
 -Error Handling: Validates user input and prevents crashes by showing helpful error messages.
 
 Technical Decisions and Design Choices
