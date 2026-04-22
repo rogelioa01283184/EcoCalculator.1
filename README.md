@@ -3,8 +3,7 @@
 
 General Description
 The main problem this project addresses is the lack of awareness about how daily consumption habits like  transportation, food, electricity, and waste impact the environment and contribute to climate change. Many people meake actions, without knowing, that cause  to overconsumption and environmental degradation.
-This project provides a solution through an ecological footprint calculator developed in Python. The program allows users to input their daily habits, calculates a footprint score based on these inputs, then classifies the environmental impact level, and provides personalized recommendations. Additionally, it stores theuser data on a .csv to allow comparisons with previous results, helping users better understand their impact.
-
+This project provides a solution through an ecological footprint calculator developed in Python. The program allows users to input their daily habits, and then calculates a footprint score based on these answers. After that it classifies the environmental impact level and provides personalized recommendations. Finally  it stores the user data on a .csv file to allow comparisons of the average with previous results.
 
 
 Setup and Execution Instructions
