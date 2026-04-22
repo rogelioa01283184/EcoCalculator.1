@@ -12,8 +12,7 @@ Setup and Execution Instructions
 Requirements
 -Python 3 installed on your computer
 - Required libraries: pandas (for the data storage and analysis)
-
-                      tkinter (for the graphical user interface; normally included with Python)
+- tkinter (for the graphical user interface; normally included with Python)
   
 
 Install the required library by running:
@@ -85,11 +84,8 @@ Error Handling: -The program validates all numeric inputs to ensure they are non
 Additional Considerations
 
 -The pandas library must be installed before running the program.
-
 -The results.csv file is automatically created if it does not exist.
-
 -If the program does not have permission to write in the current folder, it will save the file in the user’s home directory to prevent data loss.
-
 -The ecological footprint score is an estimation, not an exact scientific measurement, and is intended for educational purposes.
 
 
